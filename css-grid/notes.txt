@@ -1,0 +1,29 @@
+display grid
+
+grid template rows: 13px 13px 13px ========> make 3 rows of 13px ====> not recommended
+grid template columns: 13px 13px 13px ========> make 3 columns of 13px ====> not recommended
+
+
+# this will made a grid of 3 x 3
+grid template rows: repeat( 3 , 1fr ) ========> divide container in 3 rows ====> recommended
+grid template columns: repeat( 3 , 1fr ) ========> divide container in 3 columns ====> recommended
+
+# another method
+grid template rows: 1fr 1fr 1fr ========> divide container in 3 rows
+grid template columns: 1fr 1fr 1fr ========> divide container in 3 columns
+
+# if no width will be given to items they will get full of their division
+
+grid column start: 1 ====> starting line ======> same with rows
+grid column end: 3 ====> ending line ======> same with rows
+
+grid-row: 1 / span 3 ====> how much rows you want to span
+grid-column: 1 / span 3 ====> how much columns you want to span
+
+justify-items : start, end, center ====> for all items of a container
+align-items: start, end, center ========> for all items of a container
+place-items: start, end, center ========> for all items of a container
+
+justify-self : start, end, center ======> for self item of a grid container according to his grid division
+align-self : start, end, center ======> for self item of a grid container according to his grid division
+place-self : start, end, center ======> for self item of a grid container according to his grid division

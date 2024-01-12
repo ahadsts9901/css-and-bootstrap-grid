@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-color: #f3f3f3;
+    height: 100vh;
+}
+
+.row {
+    background-color: #969696;
+    height: 100px;
+    padding: 8px;
+}
+
+.row>div{
+    background-color: #fff;
+}

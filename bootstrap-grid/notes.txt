@@ -1,0 +1,20 @@
+# parent container must be:
+    .container =======> fixed width
+    <div class="container"></div>
+    .container-fluid =======> full width
+    <div class="container-fluid"></div>
+
+# create a contaier .row
+    <div class="row"></div>
+
+# now make columns 
+    .col-sm-2, .col-2, .col-md-2
+
+# auto column layout: just use this =====> .col ===> make these how much you want but lesser than 12
+
+# to restrict the number of columns
+
+.row ==><== .row-cols-4, .row-cols-lg-4. .row-cols-md-6, .row-cols-sm-12
+
+# use margin for gap
+# you can also use gutter
